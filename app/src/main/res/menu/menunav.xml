@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home"
+        android:title="Trang chủ">
+
+    </item>
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/baseline_search"
+        android:title="Tìm kiếm">
+
+    </item>
+    <item
+        android:id="@+id/love"
+        android:icon="@drawable/baseline_favorite"
+        android:title="Yêu thích">
+
+    </item>
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/baseline_history"
+        android:title="Lịch sử">
+
+    </item>
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/baseline_settings"
+        android:title="Cài đặt">
+
+    </item>
+</menu>

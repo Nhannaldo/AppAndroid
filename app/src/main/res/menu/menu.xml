@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    
+    >
+
+    <group android:checkableBehavior="single"
+
+        >
+        <item android:id="@+id/Home"
+            android:title="Home"
+            android:icon="@drawable/baseline_home">
+
+        </item>
+        <item
+            android:id="@+id/Favorite"
+            android:title="Favorite"
+            android:icon="@drawable/baseline_favorite">
+
+        </item>
+        <item android:id="@+id/History"
+            android:title="History"
+            android:icon="@drawable/baseline_history">
+        </item>
+        <item android:id="@+id/Search"
+            android:title="Search"
+            android:icon="@drawable/baseline_search">
+        </item>
+    </group>
+    <item android:title="Account">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/Profile"
+                    android:title="Profile"
+                    android:icon="@drawable/baseline_account">
+
+                </item>
+                <item android:id="@+id/Signout"
+                    android:title="Sign Out"
+                    android:icon="@drawable/baseline_logout">
+                </item>
+            </group>
+
+        </menu>
+    </item>
+</menu>

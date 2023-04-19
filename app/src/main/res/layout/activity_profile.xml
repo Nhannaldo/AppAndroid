@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:src="@drawable/profile"
+            android:layout_gravity="center">
+        </com.google.android.material.imageview.ShapeableImageView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E91E63"
+            android:layout_marginTop="10dp">
+        </View>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_person_24"
+            >
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/txtname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nguyễn Hữu Nhân"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:textColor="#808080">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_email_24"
+            >
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/txtemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nguyehuunhan3354@gmail.com"
+            android:layout_marginLeft="23dp"
+            android:textSize="16sp"
+            android:textColor="#808080">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_changepassword"
+            >
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pass"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/txtpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="admin123"
+            android:layout_marginLeft="30dp"
+            android:textSize="16sp"
+            android:textColor="#808080">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp">
+        <Button
+            android:id="@+id/btneditprofile"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="Edit Profile"
+            android:textAllCaps="false"
+            android:textColor="@color/white">
+        </Button>
+        <Button
+            android:id="@+id/btnchangepass"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:layout_gravity="center"
+            android:text="Change Password"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
